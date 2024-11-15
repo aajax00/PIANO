@@ -1,0 +1,74 @@
+body {
+    background-color: gray;
+    font-family: "Doto", serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    font-size: .8em;
+}
+
+.piano-container {
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.becarre {
+    position: absolute;
+    border: 3px solid black;
+    width: 99px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.becarre span {
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#do {left: 0px;}
+#re {left: 100px;}
+#mi {left: 200px;}
+#fa {left: 300px;}
+#sol {left: 400px;}
+#la {left: 500px;}
+#si {left: 600px;}
+
+.diese {
+    position: absolute;
+    border: 1px solid black;
+    width: 49px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 1;
+}
+
+.diese span {
+    color: white;
+    margin-left: 5px;
+    font-size: .80em;
+    font-weight: bold;
+}
+
+#do-diese {left: 74px;}
+#re-diese {left: 174px;}
+#fa-diese {left: 374px;}
+#sol-diese {left: 474px;}
+#la-diese {left: 574px;}
+
+.piano-container div:hover{
+    background-color: orange;
+}
+
+.piano-container div:active{
+    background-color: red;
+}
