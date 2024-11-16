@@ -41,11 +41,7 @@ function KeyboardInput(event) {
         if(event.type == "keyup"){
             divNote.style.backgroundColor = "";
         }
-
-        
     }
-    
-    
 }
 
 document.addEventListener("keydown", KeyboardInput);
